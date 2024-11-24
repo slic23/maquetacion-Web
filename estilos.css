@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+    line-height: 21.76px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif; 
+    padding: 40px;
+}
+    
+
+
+.icono::after {
+    font-family: 'Material Symbols Outlined';
+    content: 'account_circle'; 
+}
+
+body {
+    background: linear-gradient(180deg, #0B1D26 0%, #0B1D26 100%);
+}
+
+img {
+    width: 100px;
+}
+
+.dividir2 {
+    display: flex;
+}
+
+.dividir2 div {
+    padding: 0 10px;
+}
+
+.linea {
+    width: 100px;
+}
+
+header {
+    margin: 30px 10px;
+    color: white;
+    display: flex;
+    gap: 50px;
+    flex-wrap: nowrap;
+    /*background-image: url('nav.png');*/
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen al fondo */
+    
+}
+.bigMessage {
+    font-size: 88px;
+}
+
+.Scroll {
+    display: flex;
+}
+
+.Scroll div {
+    padding: 0 5px;
+}
+
+.arrow::after {
+    font-family: 'Material Symbols Outlined';
+    content: 'arrow_downward';
+    color: white;
+    font-size: 20px;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.vertical div {
+    padding-top: 20px;
+}
+
+.menu1 {
+    display: flex;
+}
+
+.menu1 div {
+    padding: 0 30px;
+}
+
+
+.menu2 {
+    display: flex;
+}
+
+.menu-final {
+    margin-top: 100px;
+    position: fixed;
+    right: 10px;
+}
+
+.menu-final div {
+    padding: 20px;
+    border-right: 1px solid black;
+    
+}
+
+
+.menu-final .inicio {
+    border-right: 1px solid white;
+}
+
+.secimg {
+    width: 566px;
+}
+.padredos {
+    position: relative;
+}
+.clasuno {
+    
+    display: flex;
+    color: white;
+    gap: 90px;
+    font-family: "Playfair Display", serif;
+    
+}
+
+.message {
+    display: flex;
+}
+
+.texto {
+    font-size: 18px;
+}
+
+.message div {
+    padding: 0 10px;
+}
+
+
+.numero01 {
+    position: absolute;
+    top: 0;
+    font-size: 220px;
+    font-weight: 1000;
+    color: rgba(255, 255, 255,0.1);
+    z-index: -1;
+}
+.numero02 {
+    position: absolute;
+    font-family: "Playfair Display", serif;
+    
+    top: 0;
+    right: 500px;
+    font-size: 220px;
+    font-weight: 1000;
+    color: rgba(255, 255, 255,0.1);
+    z-index: -1;
+
+}
+
+.numero03{
+    position: absolute;
+    font-family: "Playfair Display", serif;
+    
+    top: 0;
+    left: 0;
+    font-size: 220px;
+    font-weight: 1000;
+    color: rgba(255, 255, 255,0.1);
+    z-index: -1;
+}
+.ordenar {
+    padding-top: 140px;
+}
+
+.datos {
+    padding-top: 100px;
+}
+
+.padreuno {
+    position: relative;
+  /*  background-image: url('./VG.png') ;*/
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen al fondo */
+}
+.main {
+    display: flex;
+    gap: 50px;
+}
+
+.arrowrigth::after {
+    font-family: 'Material Symbols Outlined';
+    content: 'arrow_right_alt';
+    color: white;
+    font-size: 20px;
+}
+
+.readmore {
+    display: flex;
+    gap: 20px;
+    color: yellow;
+}
+
+
+section, main{
+    z-index: 7;
+}
+
+
+
+
+
+
+footer{
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.mes{
+    color: yellow;
+}
+/*
+.down {
+    position: relative;
+    bottom: 0;
+}*/
+
+.padretres {
+    position: relative;
+}
