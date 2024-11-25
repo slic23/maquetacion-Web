@@ -58,7 +58,6 @@ header {
     font-size: 88px;
 }
 
-
 .Scroll {
     display: flex;
 }
@@ -102,7 +101,9 @@ header {
     margin-top: 100px;
     position: fixed;
     right: 10px;
-    z-index: 7;
+    /* z-index: 999999; */
+    top: 0;
+    color: white;
 }
 
 .menu-final div {
@@ -223,6 +224,7 @@ footer{
     color: white;
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
 
 
 }
@@ -240,7 +242,21 @@ footer{
     position: relative;
 }
 
+.footer-div {
+    position: relative;
 
-.proyecto01 {
-    max-width: 900px;
 }
+
+.down {
+    position: absolute;
+    width: 300px;
+    bottom: 0;
+}
+
+
+  .up {
+    padding-bottom: 20px;
+  }
+
+
+
